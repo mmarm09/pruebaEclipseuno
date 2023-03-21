@@ -12,6 +12,7 @@ import java.util.logging.Logger;
 public class DbConnection {
     private Connection con;
     private static DbConnection dbc;
+    public int numero
     private DbConnection() {
         try {
             DriverManager.registerDriver(new oracle.jdbc.driver.OracleDriver());
